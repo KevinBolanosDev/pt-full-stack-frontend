@@ -2,7 +2,7 @@ import axios from "./axios.js";
 
 export const usersApi = {
   getAll: async (page = 1, search = "") => {
-    const response = await axios.get(`/users?page=${page}&?search=${search}`);
+    const response = await axios.get(`/users?page=${page}&search=${search}`);
     return response.data;
   },
 
