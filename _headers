@@ -1,0 +1,5 @@
+# _headers
+/*
+  Access-Control-Allow-Origin: https://pt-full-stack-backend-production.up.railway.app
+  Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS
+  Access-Control-Allow-Headers: Content-Type, Authorization
