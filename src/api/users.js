@@ -15,4 +15,4 @@ export const usersApi = {
     const response = await axios.delete(`/users/:${id}`);
     return response.data;
   }
-}; 
+};
